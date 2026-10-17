@@ -850,3 +850,14 @@ a {
 #terlaris {
     scroll-margin-top: 80px;
 }
+
+/* Memperjelas warna tulisan navbar */
+.navbar .nav-links a {
+    color: #17384c !important;
+    opacity: 1 !important;
+    font-weight: 700;
+}
+
+.navbar .nav-links a:hover {
+    color: #b58b55 !important;
+}

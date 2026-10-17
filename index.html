@@ -9,22 +9,33 @@
 </head>
 <body>
 
-    <!-- NAVBAR -->
-    <header class="navbar">
-        <a href="#beranda" class="brand-logo" aria-label="Hollister beranda">
-            <img src="assets/images/logo.jpg" alt="Logo Hollister">
-        </a>
+    <!-- HEADER NAVBAR RESPONSIVE -->
+<header class="navbar">
+    <div class="brand-box">
+        <img src="assets/images/logo.jpg"
+             alt="Logo Hollister"
+             class="brand-logo">
+        <span class="brand-name">HOLLISTER</span>
+    </div>
 
-        <a href="#beranda" class="brand-name">HOLLISTER</a>
+    <input type="checkbox"
+           id="menu-toggle"
+           class="menu-checkbox">
 
-        <nav class="nav-links">
-            <a href="#beranda">Home</a>
-            <a href="#best-seller">Best Seller</a>
-            <a href="#koleksi">Koleksi</a>
-            <a href="#tentang">Tentang</a>
-            <a href="#cara-beli">Cara Membeli</a>
-        </nav>
-    </header>
+    <label for="menu-toggle" class="menu-btn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </label>
+
+    <nav class="nav-links">
+        <a href="#promo">Promo</a>
+        <a href="#terlaris">Best Seller</a>
+        <a href="#koleksi">Koleksi</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#cara-beli" class="btn-nav">Beli Sekarang</a>
+    </nav>
+</header>
 
     <main>
         <!-- CAROUSEL / BANNER -->
